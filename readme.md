@@ -91,3 +91,30 @@ app/src/main/java/com/davidmartins/footballapp/
 ## Licença
 
 MIT
+## Estrutura do Projecto
+
+```
+app/src/main/java/com/davidmartins/footballapp/
+├── model/          # Data classes (Liga, FavoritoLocal, FavoritoEquipa)
+├── network/        # Retrofit, endpoints e DTOs da API
+├── repository/     # Fonte única de dados (API + local)
+├── ui/             # Ecrãs em Jetpack Compose
+│   └── theme/      # Cores, tipografia e tema
+└── viewmodel/      # ViewModels por ecrã
+```
+
+## Ecrãs
+
+| Ecrã | Descrição |
+|---|---|
+| `SelecionarLigaScreen` | Escolha da liga e acesso aos favoritos |
+| `ListaJogosScreen` | Lista de jogos da liga seleccionada |
+| `DetalheJogoScreen` | Resultado e detalhes de um jogo |
+| `ClassificacaoScreen` | Tabela classificativa da liga |
+| `DetalheEquipaScreen` | Plantel e informação da equipa |
+| `FavoritosScreen` | Jogos e equipas guardados |
+| `AdicionarEditarFavoritoScreen` | Criar/editar nota num jogo favorito |
+
+## Licença
+
+MIT
