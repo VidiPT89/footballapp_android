@@ -124,6 +124,5 @@ git clone https://github.com/VidiPT89/footballapp_android.git
 
 ## 🎓 Context
 
-Built as part of my **Mobile Development (Android)** module at **CESAE Digital**. First Jetpack Compose project with live API data, multi-screen navigation, and persistent local storage.
 
 _Next up: zone highlights on the standings table, proper error screens, and maybe Room. Eventually._ 🏁
